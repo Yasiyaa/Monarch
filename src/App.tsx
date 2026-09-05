@@ -8,6 +8,7 @@ import { ProcessAndReviews } from './components/ProcessAndReviews';
 import { QuickActionBar } from './components/QuickActionBar';
 import { Footer } from './components/Footer';
 import { QuoteModal } from './components/QuoteModal';
+import { Watermark } from './components/Watermark';
 import { Phone, MessageSquare } from 'lucide-react';
 import { BUSINESS_INFO } from './data/servicesData';
 
@@ -28,7 +29,10 @@ export function App() {
   };
 
   return (
-    <div className="min-h-screen bg-white flex flex-col text-slate-900 font-sans selection:bg-monarch-blue/15 selection:text-monarch-blue">
+    <div className="min-h-screen bg-white flex flex-col text-slate-900 font-sans selection:bg-monarch-blue/15 selection:text-monarch-blue relative">
+      {/* Site-wide Demo View Watermark */}
+      <Watermark />
+
       {/* Top Header & Navigation */}
       <Header onOpenQuote={() => handleOpenQuote()} />
 
