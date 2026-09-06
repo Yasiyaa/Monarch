@@ -4,7 +4,7 @@ import { BUSINESS_INFO, SERVICE_PILLARS } from '../data/servicesData';
 
 export const Footer: React.FC = () => {
   return (
-    <footer id="contact" className="relative bg-[#071D3E] text-white pt-16 sm:pt-20 pb-10 sm:pb-12 overflow-hidden border-t-4 border-monarch-blue">
+    <footer id="contact" className="relative bg-[#0E3366] text-white pt-16 sm:pt-20 pb-10 sm:pb-12 overflow-hidden border-t-4 border-monarch-blue">
       {/* Decorative leaf watermark in the background */}
       <div className="absolute top-0 right-0 transform translate-x-16 -translate-y-16 text-white pointer-events-none opacity-[0.03]">
         <Leaf className="w-96 h-96" />
@@ -17,12 +17,12 @@ export const Footer: React.FC = () => {
           
           {/* Column 1: Brand, Logo & Trust Credentials (4 cols) */}
           <div className="lg:col-span-4 space-y-4 text-left">
-            {/* White Logo Container Badge for High Visibility */}
-            <div className="inline-block bg-white px-4 py-2.5 rounded-2xl shadow-lg">
+            {/* Logo with clean white background badge for high contrast */}
+            <div className="inline-flex items-center justify-center bg-white px-4 py-2 rounded-xl shadow-md">
               <img
-                src="/images/Logo1.png"
+                src="/images/Logo 1.png"
                 alt="Monarch Services Logo"
-                className="h-11 sm:h-12 w-auto object-contain"
+                className="h-9 sm:h-10 w-auto object-contain"
               />
             </div>
 
