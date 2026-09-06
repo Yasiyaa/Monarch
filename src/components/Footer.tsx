@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
             {/* White Logo Container Badge for High Visibility */}
             <div className="inline-block bg-white px-4 py-2.5 rounded-2xl shadow-lg">
               <img
-                src="/images/logo.jpg"
+                src="/images/Logo1.png"
                 alt="Monarch Services Logo"
                 className="h-11 sm:h-12 w-auto object-contain"
               />

@@ -39,7 +39,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenQuote }) => {
           {/* Logo */}
           <a href="#home" className="flex items-center group">
             <img
-              src="/images/logo.jpg"
+              src="/images/Logo1.png"
               alt="Monarch Services - Cleaner Spaces. Greener Tomorrow."
               className="h-11 sm:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
             />
